@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Game</title>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+    <section class="container">
+        <div class="headTitel">
+        <h1>Cards Game </h1>
+        <h2>Try to play now </h2>
+        <mark> | explanation : it's a luck Game ,<br> you must get 21 to win ,
+             if you got less you have opportunity to pull another card ,
+              if you got more than 21 you will lost</mark>
+    </div>
+    <h3 class="notification" id="notification"></h3>
+    <p id="cards"></p>
+    <p id="sum"></p>
+
+        <div>
+            <button onclick="startGame()">Start</button>
+            <button onclick="newCrad()">New Cards</button>
+        </div>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+</html>
